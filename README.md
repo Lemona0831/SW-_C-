@@ -67,7 +67,9 @@ ticket_id	user	message	created_at	processed_by	processed_at
 ## 🛠 개발자 노트 [1.0ver]
 C 성능 최적화
 Queue: 배열 기반 FIFO
+
 JSON 저장으로 재시작해도 데이터 유지
+
 DLL 오류 발생 시 c_get_last_error() 반환 지원
 
 ## 라이선스
