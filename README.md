@@ -63,7 +63,7 @@ DLL은 Python 실행 폴더 or bot 폴더에 반드시 넣어야 합니다.
 
 ## 🗂 로그 CSV 저장 형식 예시
 ticket_id	user	message	created_at	processed_by	processed_at
-🛠 개발자 노트
+## 🛠 개발자 노트 [1.0ver]
 C 성능 최적화
 Queue: 배열 기반 FIFO
 Priority Queue: Max-Heap
