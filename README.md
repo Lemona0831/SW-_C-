@@ -63,14 +63,10 @@ DLL은 Python 실행 폴더 or bot 폴더에 반드시 넣어야 합니다.
 
 ## 🗂 로그 CSV 저장 형식 예시
 ticket_id	user	message	created_at	processed_by	processed_at
+
 ## 🛠 개발자 노트 [1.0ver]
 C 성능 최적화
 Queue: 배열 기반 FIFO
-Priority Queue: Max-Heap
-Python 오버헤드 없이 빠른 처리 성능 제공
-
-안전성
-
 JSON 저장으로 재시작해도 데이터 유지
 DLL 오류 발생 시 c_get_last_error() 반환 지원
 
